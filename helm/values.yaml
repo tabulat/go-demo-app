@@ -39,7 +39,7 @@ api-gateway:
   image:
     tag: 0.53.0
   service:
-    type: NodePort
+    type: LoadBalancer
 redis:
   architecture: standalone
   auth:
